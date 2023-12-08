@@ -128,55 +128,108 @@ h1 {
     line-height: 32px;
 }
 
-@media screen and (max-width: 1024px){
-    .desc{
-        margin-left: 20%;
-        margin-right: 20%;
+
+@media screen and (max-width:1600px) {
+    nav a {
+        margin-right: 40px;
+    }
+    .oil_bottle img {
+        width: 440px;
+    }
+    .header_content, .main_wrapper {
+        padding: 0 140px;
     }
 }
-@media screen and (max-width:1300px) {
-        .desc{
-        margin-left: 10%;
-        margin-right: 10%;
+
+@media screen and (max-width:1380px) {
+    .oil_bottle img {
+        margin-right: 40px;
     }
 }
-@media screen and (min-width:1300px) {
-    .main_section{
-        display: flex;
-        align-items: center;
 
-    }  .salad{
-        text-align: left;
+@media screen and (max-width:1250px) {
+    .main_content {
+        margin: 80px 0;
     }
-    .chislo{
-        justify-content: left;
+    .content_buttons {
+        flex-direction: column;
     }
-    .content_buttons{
-        display: inline-flex;
-
-        margin-left: 0px;
-    }
-    .more_inf, .in_korz{
-        width: 200px;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        padding-left: 48px;
-        padding-right: 48px;
-        padding-top: 18px;
-        padding-bottom: 18px ;
-        margin-left: 0px;
-    }
-}
-@media screen and (min-width: 1024px) {
-
-    .navi{
-        display: flex;
-        align-items: center;
-    }
-    .burger{
+    .nav_a {
         display: none;
-        
+    }
+    .burger {
+        display: block;
+    }
+    nav {
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .main_content {
+        margin: 80px 0;
+    }
+    .content_buttons {
+        flex-direction: column;
+    }
+    .nav_a {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    nav {
+        margin-right: 24px;
+    }
+    header {
+        height: 112px;
+    }
+    .main_wrapper {
+        flex-direction: column;
+    }
+    .logo img {
+        height: 80px;
+    }
+    .header_content, .main_wrapper {
+        padding: 0 40px;
+    }
+    .main_picture img {
+        margin-right: 0;
+    }
+    .main_content {
+        justify-content: center;
+    }
+    .main_content h1, p, .counter, .content_buttons {
+        margin: 0 auto;
+    }
+    .chislo {
+        margin-bottom: 32px;
+    }
+    .content_buttons {
+        width: auto;
+    }
+    .more_inf, .in_korz {
+        width: 100%;
+    }
+    .content_buttons {
+        display: flex;
+        justify-content: center;
+        max-width: 1000px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:535px) {
+    .oil_bottle img {
+        width: 314px;
+    }
+    .main_content h1 {
+        font-size: 36px;
+        margin-top: -50px;
+        margin-bottom: -20px;
+    }
+    .header_content, .main_wrapper {
+        padding: 0 20px;
     }
     
 }
