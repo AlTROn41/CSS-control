@@ -93,3 +93,90 @@ h1 {
     font-size: 24px;
 }
 
+.minus, .plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border: 1px solid rgba(128, 128, 128, 0.477);
+    border-radius: 8px;
+}
+
+.content_buttons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 446px;
+    width: 100%;
+}
+
+.more_inf, .in_korz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 203px;
+    height: 48px;
+    border: 1px solid rgba(104, 136, 0);
+    border-radius: 50px;
+}
+
+.content_buttons p {
+    color: rgba(104, 136, 0);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+@media screen and (max-width: 1024px){
+    .desc{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+@media screen and (max-width:1300px) {
+        .desc{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media screen and (min-width:1300px) {
+    .main_section{
+        display: flex;
+        align-items: center;
+
+    }  .salad{
+        text-align: left;
+    }
+    .chislo{
+        justify-content: left;
+    }
+    .content_buttons{
+        display: inline-flex;
+
+        margin-left: 0px;
+    }
+    .more_inf, .in_korz{
+        width: 200px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: 48px;
+        padding-right: 48px;
+        padding-top: 18px;
+        padding-bottom: 18px ;
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width: 1024px) {
+
+    .navi{
+        display: flex;
+        align-items: center;
+    }
+    .burger{
+        display: none;
+        
+    }
+    
+}
